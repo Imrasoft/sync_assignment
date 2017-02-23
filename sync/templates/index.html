@@ -1,0 +1,31 @@
+
+
+
+<html>
+<head>
+    <title>Groups</title>
+</head>
+<body>
+<h1>
+    Runs
+</h1>
+<p><b>Steps</b></p>
+<div>
+    {% for ss in steps %}
+        {% for s in ss %}
+        <p>{{ s }}</p>
+        {% endfor %}
+    {% endfor %}
+</div>
+
+<p><b>Values</b></p>
+<div>
+    {% for vv in values %}
+        {% for v in vv %}
+        <p>{{ v }}</p>
+        {% endfor %}
+    {% endfor %}
+</div>
+
+</body>
+</html>
